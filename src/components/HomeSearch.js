@@ -1,7 +1,9 @@
 import './HomeSearch.css';
 
 function AppSearch(props) {
+
     const { value, onValueChange } = props;
+    
     return (
         <div className="app-search">
             <input
@@ -15,4 +17,4 @@ function AppSearch(props) {
     );
 }
 
-export default AppSearch;
+export default AppSearch; 
