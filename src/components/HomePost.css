@@ -1,0 +1,47 @@
+.flower-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999; /*ใช้ในการวาง layer ซ้อนกัน*/
+}
+
+.flower-post-bg { 
+    background-color: rgba(57, 57, 57, 0.817);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.flower-post-content{
+    background-color: black; /*พื้นหลังกรอบรูปเป็นสีดำ*/
+    max-width: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.flower-post-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.flower-post-content h4{
+    color: aliceblue;
+    text-align: center;
+}
